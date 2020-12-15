@@ -1,0 +1,306 @@
+/* Fonts*/
+
+@font-face {
+    font-family: 'D-DIN Regular';
+    src: local('D-DIN Regular'), local('D-DIN Regular'),
+    url('../fonts/d-din.regular.otf');
+}
+
+@font-face {
+    font-family: 'D-DIN Bold';
+    src: local('D-DIN Bold'), local('D-DIN Bold'),
+    url('../fonts/d-din.exp-bold.otf');
+}
+
+/* Default screen size (res:1920x1080) */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:'D-DIN Regular';
+}
+
+h2 {
+    font-family: "D-DIN Bold";
+}
+
+#content {
+    margin-top: 246px;
+}
+
+a {
+    color: cadetblue;
+}
+
+.head-title {
+    width: 543px;
+    height: 99px;
+    
+    margin-left: 0px;
+    background-image: url("../img/dj_billybool.png");
+    background-size: cover;
+}
+
+.showcase {
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+    border: solid 1px black;
+    width: 631px;
+    height: 587px;
+    margin: 0px auto;
+}
+
+.img-placeholder {
+    width: 385px;
+    height: 578px;
+
+    margin-left: -155px;
+    margin-top: -99px;
+
+    background-image: url("../img/29.jpg");
+    background-size: cover;
+}
+
+.info-placeholder {
+    margin-top: -99px;
+}
+
+.socials {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    width: 252px;
+}
+
+.icons {
+    width: 67px;
+    height: 67px;
+}
+
+.info {
+    margin-top: 50px;
+    font-size: 1.4rem;
+}
+
+.playlist {
+    margin-top: 30px;
+}
+
+.tiger {
+    position: absolute;
+    z-index: -1;
+
+    margin-left: 170px;
+    margin-top: -100px;
+    width: 179px;
+    height: 381px;
+
+    background-image: url("../img/tiger.jpg");
+    background-size: cover;
+    transform: rotate(15.71deg);
+}
+
+.credits {
+    width: 631px;
+    margin: 0px auto;
+}
+
+.spotify-player {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+/* Medium Screen sizes (Desktops)*/
+@media only screen and (max-width: 1082px) {
+
+    #content {
+        margin-top: 274px;
+    }
+
+    .showcase {
+        width: 556px;
+        height: 442px;
+    }
+
+    .socials {    
+        width: 182.92px;
+    }
+    
+    .icons {
+        width: 48.63px;
+        height: 48.63px;
+    }
+
+    .img-placeholder {
+        width: 279px;
+        height: 420px;
+
+        margin-left: -70px;
+        margin-top: -69px;
+    }
+
+    .info-placeholder {
+        margin-top: -69px;
+    }
+
+    .head-title {
+        width: 395px;
+        height: 72px;
+    }
+
+    .info {
+        margin-top: 40px;
+        font-size: 1.4rem;
+    }
+    
+    .playlist {
+        margin-top: 30px;
+    }
+
+    .tiger {
+        width: 129.93px;
+        height: 276.56px;
+
+        margin-left: 175px;
+        margin-top: -125px;
+    }
+
+    .credits {
+        width: 556px;
+    }
+}
+
+/* Medium screen sizen (Tablets)*/
+@media only screen and (max-width: 700px) {
+
+    #content {
+        margin-top: 246px;
+    }
+
+    .showcase {
+        width: 465px;
+        height: 369px;
+    }
+
+    .socials {    
+        width: 152.8px;
+        height: 40.62px;
+    }
+    
+    .icons {
+        width: 40.62px;
+        height: 40.62px;
+    }
+
+    .img-placeholder {
+        width: 233px;
+        height: 350px;
+
+        margin-left: -55px;
+        margin-top: -50px;
+    }
+
+    .info-placeholder {
+        margin-top: -50px;
+    }
+
+    .head-title {
+        width: 330px;
+        height: 60px;
+    }
+
+    .info {
+        margin-top: 10px;
+        font-size: 1.2rem;
+    }
+    
+    .playlist {
+        margin-top: 20px;
+    }
+
+    .tiger {
+        width: 108.53px;
+        height: 231.01px;
+
+        margin-left: 155px;
+        margin-top: -95px;
+    }
+
+    .credits {
+        width: 465px;
+    }
+
+    .player {
+        width: 400px;
+    }
+
+}
+
+/* Small screen */
+@media only screen and (max-width: 415px) {
+
+    #content {
+        margin-top: 180px;
+    }
+
+    .showcase {
+        width: 326px;
+        height: 264px;
+    }
+
+    .socials {    
+        width: 122px;
+        height: 32.44px;
+    }
+    
+    .icons {
+        width: 32.44px;
+        height: 32.44px;
+    }
+
+    .img-placeholder {
+        width: 149px;
+        height: 224px;
+
+        margin-left: -10px;
+        margin-top: -30px;
+    }
+
+    .info-placeholder {
+        margin-top: -30px;
+    }
+
+    .head-title {
+        width: 174px;
+        height: 31px;
+        margin-left: 20px;
+    }
+
+    .info {
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: .8rem;
+    }
+    
+    .playlist {
+        margin-top: 20px;
+    }
+
+    .tiger {
+        width: 65.16px;
+        height: 138.7px;
+
+        margin-left: 95px;
+        margin-top: -40px;
+    }
+
+    .credits {
+        width: 326px;
+    }
+
+    .player {
+        width: 300px;
+    }
+
+}
